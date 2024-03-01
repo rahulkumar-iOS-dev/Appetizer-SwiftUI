@@ -19,6 +19,7 @@ struct Appetizer: Decodable, Identifiable {
     let imageURL: String
     let price: Double
     let carbs: Int
+    var fat: Int? = 0
 }
 
 struct AppetizerMockData {
